@@ -1,0 +1,9 @@
+global:
+  environment: dev
+  namespace: wordpress-mysql-dev
+mysql-service:
+  image:
+    tag: "5.6"
+wordpress-service:
+  image:
+    tag: "4.8-apache"
