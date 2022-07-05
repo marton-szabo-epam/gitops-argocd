@@ -13,3 +13,4 @@ spec:
   selector:
     app: wordpress
     tier: mysql
+  type: ClusterIP
